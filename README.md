@@ -1,2 +1,2 @@
 # modoki-releases
-repo for hosting modoki updates
+repo for hosting [modoki](https://modoki.app) updates
