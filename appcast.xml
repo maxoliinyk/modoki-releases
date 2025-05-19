@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Modoki</title>
+        <item>
+            <title>0.8</title>
+            <pubDate>Mon, 19 May 2025 14:24:05 +0300</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/prod/Modoki.0.8.dmg" length="4213607" type="application/octet-stream" sparkle:edSignature="8eJzeN4oGkItcCh6EH2XVGKnHa/QLNt4bgJ0Amv2y8/dkTrOpeenjlHR1dAgmeNU+FcMIwywYAZL7yg5GwdWCw=="/>
+        </item>
+    </channel>
+</rss>
