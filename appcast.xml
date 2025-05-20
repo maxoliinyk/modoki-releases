@@ -3,12 +3,12 @@
     <channel>
         <title>Modoki</title>
         <item>
-            <title>0.8.8</title>
-            <pubDate>Tue, 20 May 2025 16:06:07 +0300</pubDate>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
+            <title>0.8.9</title>
+            <pubDate>Tue, 20 May 2025 16:51:52 +0300</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v0.8.8(24)/Modoki.0.8.8.dmg" length="4213800" type="application/octet-stream" sparkle:edSignature="60TgrWK92ebw41uPQ/VJtcVyCl8UuArABF4j0JPNSOVDrcr2bXSJjzunDAv2imOe40KPx8/QUoJzAQoAjqHZCw=="/>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v0.8.9/Modoki.0.8.9.dmg" length="4214242" type="application/octet-stream" sparkle:edSignature="Lz+q8gW2KDsOp1T5dmvzOY90UU4dnPJ18WLR3fEYq1BBkjweO/jO50IjklcoQWA6H4OVejSnIA+porTXluLUBQ=="/>
         </item>
     </channel>
 </rss>
