@@ -4,17 +4,26 @@
     <title>Modoki</title>
     <item>
       <title>1.0</title>
-      <pubDate>Thu, 22 May 2025 15:10:47 +0300</pubDate>
-      <sparkle:version>34</sparkle:version>
+      <pubDate>Thu, 22 May 2025 15:49:46 +0300</pubDate>
+      <sparkle:version>35</sparkle:version>
       <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.1/Modoki.1.0.1.dmg" length="4485260" type="application/octet-stream" sparkle:edSignature="b3A94NfRCVSq86K9J31M6VW8clPUrzH/r/ywOqkA19sb0lfMM8xyKDVnKM7E8jSmP0fAcqfNEOMLtof21RHeDg=="/>
       <description><![CDATA[
-        <ul>
-          <li>Placeholder release notes go here.</li>
-          <li>Add your changes, improvements, and fixes!</li>
-        </ul>
-      ]]></description>
+                <h2>What's New in Modoki 1.0</h2>
+                <ul>
+                    <li>🎉 <strong>Initial public release!</strong> Modoki is officially live.</li>
+                    <li>📝 <strong>Description:</strong> Quickly create and manage your dock layouts, switch them automatically using Focus modes. For more information, see the FAQ.</li>
+                    <li>✨ <strong>New:</strong> Add auto-updates.</li>
+                    <li>✨ <strong>New:</strong> Hide dock or menu bar icons.</li>
+                    <li>✨ <strong>New:</strong> Add a clear focus filter setup guide.</li>
+                    <li>🛠️ <strong>Performance:</strong> Optimized app performance and improved UX.</li>
+                    <li>🛠️ <strong>Fix:</strong> Improved focus mode status change detection.</li>
+                    <li>🛠️ <strong>Fix:</strong> Fixed an auto-quit issue when layout could not be changed.</li>
+                    <li>⚠️ <strong>Known Issue:</strong> Layout may not revert properly if iCloud is not enabled or Focus Mode is not shared between devices. This is due to Apple's limitations in Focus Mode detection, for which we use a workaround.</li>
+                </ul>
+                <p><a href="https://modoki.app/changelog">Full Changelog</a></p>
+            ]]>      </description>
+      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.0/Modoki.1.0.dmg" length="4485964" type="application/octet-stream" sparkle:edSignature="Vhv5QKF7EXzfGCiz+jQl78DCCBoImcJW3YkaJsUpJEOXyNMYz7raZP7lPUv0OqNemQdd2r8K6gF4ih6nDDM3Cw=="/>
     </item>
   </channel>
 </rss>
