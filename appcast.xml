@@ -1,29 +1,27 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>Modoki</title>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 22 May 2025 16:13:15 +0300</pubDate>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                      <h2>What's New in Modoki 1.0</h2>
-                      <ul>
-                          <li>🎉 <strong>Initial public release!</strong> Modoki is officially live.</li>
-                          <li>📝 <strong>Description:</strong> Quickly create and manage your dock layouts, switch them automatically using Focus modes. For more information, see the FAQ.</li>
-                          <li>✨ <strong>New:</strong> Add auto-updates.</li>
-                          <li>✨ <strong>New:</strong> Hide dock or menu bar icons.</li>
-                          <li>✨ <strong>New:</strong> Add a clear focus filter setup guide.</li>
-                          <li>🛠️ <strong>Performance:</strong> Optimized app performance and improved UX.</li>
-                          <li>🛠️ <strong>Fix:</strong> Improved focus mode status change detection.</li>
-                          <li>🛠️ <strong>Fix:</strong> Fixed an auto-quit issue when layout could not be changed.</li>
-                          <li>⚠️ <strong>Known Issue:</strong> Layout may not revert properly if iCloud is not enabled or Focus Mode is not shared between devices. This is due to Apple's limitations in Focus Mode detection, for which we use a workaround.</li>
-                      </ul>
-                      <p><a href="https://modoki.app/changelog">Full Changelog</a></p>
-                  ]]>      </description>
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.0/Modoki.1.0.dmg" length="4486378" type="application/octet-stream" sparkle:edSignature="x6q136d+69AHiu9xcCU0LCXEYtlmVo4QS4FCtGsaiHs6HfaIYHOu41GpFkUjGbn8VEtTDvQaF0RUccbFM6msDQ=="/>
-        </item>
-    </channel>
+  <channel>
+    <title>Modoki</title>
+    <item>
+      <title>1.0.1</title>
+      <pubDate>Fri, 23 May 2025 22:56:34 +0300</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+                <h3>What's New in v1.0.1</h3>
+                <ul>
+                    <li>📝 <strong>Description:</strong> Added Shortcuts support for quickly switching between dock layouts, improved onboarding experience, and improved app's internal reliability.</li>
+                    <li>✨ <strong>New:</strong> Added Shortcuts support – now you can activate different dock layouts using your favorite shortcuts (infinite number of them!).</li>
+                    <li>✨ <strong>New:</strong> Added a "Skip" button for onboarding based on user feedback. You can now skip the initial setup if needed.</li>
+                    <li>✨ <strong>New:</strong> Added ability to revisit onboarding by going to advanced settings and pressing "Reset onboarding."</li>
+                    <li>🛠️ <strong>Performance:</strong> Internal optimizations – storing and doing operations with layouts should be more stable now.</li>
+                    <li>⏳ <strong>Coming Soon:</strong> Working on integrating backup, export/import features for future versions.</li>
+                    <li>⚠️ <strong>Known Issue:</strong> Layout may not revert properly if iCloud is not enabled or Focus Mode is not shared between devices. This is due to Apple's limitations in Focus Mode detection, for which we use a workaround.</li>
+                </ul>
+                <p><a href="https://modoki.app/changelog">Full Changelog</a></p>
+            ]]>      </description>
+      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.1/Modoki.1.0.1.dmg" length="4634687" type="application/octet-stream" sparkle:edSignature="zuIp6U7co9tpSx/p2mEbZ3FuHKMJrPZ3IbzAVPk0vzRdoAmZu/Tqz0A0oI0Ed5EO5sIEG67kaj8X22BfEQP1Aw=="/>
+    </item>
+  </channel>
 </rss>
