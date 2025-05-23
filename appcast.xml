@@ -21,7 +21,7 @@
                 </ul>
                 <p><a href="https://modoki.app/changelog">Full Changelog</a></p>
             ]]>      </description>
-      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.1/Modoki.1.0.1.dmg" length="4634687" type="application/octet-stream" sparkle:edSignature="zuIp6U7co9tpSx/p2mEbZ3FuHKMJrPZ3IbzAVPk0vzRdoAmZu/Tqz0A0oI0Ed5EO5sIEG67kaj8X22BfEQP1Aw=="/>
+      <enclosure url="https://modoki.com/download" length="4634687" type="application/octet-stream" sparkle:edSignature="zuIp6U7co9tpSx/p2mEbZ3FuHKMJrPZ3IbzAVPk0vzRdoAmZu/Tqz0A0oI0Ed5EO5sIEG67kaj8X22BfEQP1Aw=="/>
     </item>
   </channel>
 </rss>
