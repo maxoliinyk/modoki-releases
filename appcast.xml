@@ -3,25 +3,32 @@
   <channel>
     <title>Modoki</title>
     <item>
-      <title>1.0.1</title>
-      <pubDate>Fri, 23 May 2025 22:56:34 +0300</pubDate>
-      <sparkle:version>39</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <title>1.0.2</title>
+      <pubDate>Tue, 27 May 2025 22:47:28 +0300</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-                <h3>What's New in v1.0.1</h3>
+                <h3>What's New in v1.0.2</h3>
                 <ul>
-                    <li>📝 <strong>Description:</strong> Added Shortcuts support for quickly switching between dock layouts, improved onboarding experience, and improved app's internal reliability.</li>
-                    <li>✨ <strong>New:</strong> Added Shortcuts support – now you can activate different dock layouts using your favorite shortcuts (infinite number of them!).</li>
-                    <li>✨ <strong>New:</strong> Added a "Skip" button for onboarding based on user feedback. You can now skip the initial setup if needed.</li>
-                    <li>✨ <strong>New:</strong> Added ability to revisit onboarding by going to advanced settings and pressing "Reset onboarding."</li>
-                    <li>🛠️ <strong>Performance:</strong> Internal optimizations – storing and doing operations with layouts should be more stable now.</li>
+                    <li>📝 <strong>Description:</strong> Hide both icons for even cleaner workspace, drag and drop apps directly into layouts, plus huge internal improvements for better stability.</li>
+                    <li>✨ <strong>New:</strong> Added drag and drop support for apps directly into Dock section – simply drag apps from Finder or other sources to add them to your layouts instantly (<a href="https://youtu.be/CAb97yVE5xY" target="_blank">demo</a>).</li>
+                    <li>✨ <strong>New:</strong> You can now hide both menu bar and dock icons simultaneously. To access the app after hiding all icons, use any app launcher like Spotlight, Raycast, Alfred, or Launchpad.</li>
+                    <li>📈 <strong>Improvements:</strong> Added scrollbar support for Dock section – scrollbars now respect your macOS system preferences (will show always if you have "Always" selected in System Preferences).</li>
+                    <li>📈 <strong>Improvements:</strong> Redesigned layout storage system for better performance and data integrity.</li>
+                    <li>📈 <strong>Improvements:</strong> No need for "Save" button anymore – layouts will now save automatically.</li>
+                    <li>🛠️ <strong>Fix:</strong> Now Dock section looks better with layouts containing 1-3 apps.</li>
+                    <li>🛠️ <strong>Fix:</strong> Fixed a bug where layouts would not save properly. Saves now handled automatically and reliably.</li>
+                    <li>🛠️ <strong>Fix:</strong> Implemented safe data migration with automatic backup (just in case) to prevent any layout loss during update.</li>
                     <li>⏳ <strong>Coming Soon:</strong> Working on integrating backup, export/import features for future versions.</li>
                     <li>⚠️ <strong>Known Issue:</strong> Layout may not revert properly if iCloud is not enabled or Focus Mode is not shared between devices. This is due to Apple's limitations in Focus Mode detection, for which we use a workaround.</li>
+                    <li>⚠️ <strong>Known Issue:</strong> Switching between layouts too fast can occur in error.</li>
+                    <li>⚠️ <strong>Known Issue:</strong> Spacers in layouts are ignored as they're not supported yet.</li>
                 </ul>
                 <p><a href="https://modoki.app/changelog">Full Changelog</a></p>
+                <p>In case you have any issues with your layouts after this update, please <a href="https://modoki.app/contact">contact me</a>.</p>
             ]]>      </description>
-      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.1/Modoki.1.0.1.dmg" length="4634687" type="application/octet-stream" sparkle:edSignature="zuIp6U7co9tpSx/p2mEbZ3FuHKMJrPZ3IbzAVPk0vzRdoAmZu/Tqz0A0oI0Ed5EO5sIEG67kaj8X22BfEQP1Aw=="/>
+      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.2/Modoki.1.0.2.dmg" length="4641854" type="application/octet-stream" sparkle:edSignature="m2LFc2uvXW9skCslZqf03sEmnmSPUHUMp9Z4h4KAlmmqnTTWXQywO6nkebOf8sUKSNm+R/4PTV14vTA12vGqDQ=="/>
     </item>
   </channel>
 </rss>
