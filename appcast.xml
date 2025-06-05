@@ -3,32 +3,26 @@
   <channel>
     <title>Modoki</title>
     <item>
-      <title>1.0.2</title>
-      <pubDate>Tue, 27 May 2025 22:47:28 +0300</pubDate>
-      <sparkle:version>42</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <title>1.0.3</title>
+      <pubDate>Thu, 05 Jun 2025 16:35:31 +0300</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-                <h3>What's New in v1.0.2</h3>
+                <h3>What's New in v1.0.3</h3>
                 <ul>
-                    <li>📝 <strong>Description:</strong> Hide both icons for even cleaner workspace, drag and drop apps directly into layouts, plus huge internal improvements for better stability.</li>
-                    <li>✨ <strong>New:</strong> Added drag and drop support for apps directly into Dock section – simply drag apps from Finder or other sources to add them to your layouts instantly (<a href="https://youtu.be/CAb97yVE5xY" target="_blank">demo</a>).</li>
-                    <li>✨ <strong>New:</strong> You can now hide both menu bar and dock icons simultaneously. To access the app after hiding all icons, use any app launcher like Spotlight, Raycast, Alfred, or Launchpad.</li>
-                    <li>📈 <strong>Improvements:</strong> Added scrollbar support for Dock section – scrollbars now respect your macOS system preferences (will show always if you have "Always" selected in System Preferences).</li>
-                    <li>📈 <strong>Improvements:</strong> Redesigned layout storage system for better performance and data integrity.</li>
-                    <li>📈 <strong>Improvements:</strong> No need for "Save" button anymore – layouts will now save automatically.</li>
-                    <li>🛠️ <strong>Fix:</strong> Now Dock section looks better with layouts containing 1-3 apps.</li>
-                    <li>🛠️ <strong>Fix:</strong> Fixed a bug where layouts would not save properly. Saves now handled automatically and reliably.</li>
-                    <li>🛠️ <strong>Fix:</strong> Implemented safe data migration with automatic backup (just in case) to prevent any layout loss during update.</li>
-                    <li>⏳ <strong>Coming Soon:</strong> Working on integrating backup, export/import features for future versions.</li>
-                    <li>⚠️ <strong>Known Issue:</strong> Layout may not revert properly if iCloud is not enabled or Focus Mode is not shared between devices. This is due to Apple's limitations in Focus Mode detection, for which we use a workaround.</li>
-                    <li>⚠️ <strong>Known Issue:</strong> Switching between layouts too fast can occur in error.</li>
-                    <li>⚠️ <strong>Known Issue:</strong> Spacers in layouts are ignored as they're not supported yet.</li>
+                    <li>📝 <strong>Description:</strong> Export and import your layouts, duplicate layouts with ease, plus improved shortcuts reliability and overall stability.</li>
+                    <li>✨ <strong>New:</strong> Export/Import – now you can export all your layouts and import them; you can share them with other users or keep them as a backup.</li>
+                    <li>✨ <strong>New:</strong> Delete all layouts – new button in Settings › Advanced; it can delete all your layouts if needed or if you want to completely replace your current layouts with newly imported ones. Previously, that button would reset all settings and layouts.</li>
+                    <li>✨ <strong>New:</strong> You can now duplicate your layouts in the sidebar. Right-click › Duplicate.</li>
+                    <li>🛠️ <strong>Fix:</strong> There was an issue where shortcuts wouldn't work after a system reboot. You had to manually start the app to make them work. Now it's fixed, and they work flawlessly.</li>
+                    <li>🛠️ <strong>Fix:</strong> Multiple internal bugs fixed that might've caused some inconvenience.</li>
+                    <li>📈 <strong>Improvements:</strong> Overall shortcuts handling has been improved.</li>
+                    <li>📈 <strong>Improvements:</strong> Minor internal improvements for stability and error handling.</li>
                 </ul>
-                <p><a href="https://modoki.app/changelog">Full Changelog</a></p>
-                <p>In case you have any issues with your layouts after this update, please <a href="https://modoki.app/contact">contact me</a>.</p>
+                <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
             ]]>      </description>
-      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.2/Modoki.1.0.2.dmg" length="4641854" type="application/octet-stream" sparkle:edSignature="m2LFc2uvXW9skCslZqf03sEmnmSPUHUMp9Z4h4KAlmmqnTTWXQywO6nkebOf8sUKSNm+R/4PTV14vTA12vGqDQ=="/>
+      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.3/Modoki.1.0.3.dmg" length="4641905" type="application/octet-stream" sparkle:edSignature="eO0AitxKr5/JibJM1cWwPH59ss2kMzhLYQfJS15AnaHJbzQ/JqMaCvnFLAkJLICrwARdbJLwaqpYk1U3yAs3BQ=="/>
     </item>
   </channel>
 </rss>
