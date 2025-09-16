@@ -1,28 +1,34 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-  <channel>
-    <title>Modoki</title>
-    <item>
-      <title>1.0.3</title>
-      <pubDate>Thu, 05 Jun 2025 16:35:31 +0300</pubDate>
-      <sparkle:version>47</sparkle:version>
-      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[
-                <h3>What's New in v1.0.3</h3>
-                <ul>
-                    <li>📝 <strong>Description:</strong> Export and import your layouts, duplicate layouts with ease, plus improved shortcuts reliability and overall stability.</li>
-                    <li>✨ <strong>New:</strong> Export/Import – now you can export all your layouts and import them; you can share them with other users or keep them as a backup.</li>
-                    <li>✨ <strong>New:</strong> Delete all layouts – new button in Settings › Advanced; it can delete all your layouts if needed or if you want to completely replace your current layouts with newly imported ones. Previously, that button would reset all settings and layouts.</li>
-                    <li>✨ <strong>New:</strong> You can now duplicate your layouts in the sidebar. Right-click › Duplicate.</li>
-                    <li>🛠️ <strong>Fix:</strong> There was an issue where shortcuts wouldn't work after a system reboot. You had to manually start the app to make them work. Now it's fixed, and they work flawlessly.</li>
-                    <li>🛠️ <strong>Fix:</strong> Multiple internal bugs fixed that might've caused some inconvenience.</li>
-                    <li>📈 <strong>Improvements:</strong> Overall shortcuts handling has been improved.</li>
-                    <li>📈 <strong>Improvements:</strong> Minor internal improvements for stability and error handling.</li>
-                </ul>
-                <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
-            ]]>      </description>
-      <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.3/Modoki.1.0.3.dmg" length="4641905" type="application/octet-stream" sparkle:edSignature="eO0AitxKr5/JibJM1cWwPH59ss2kMzhLYQfJS15AnaHJbzQ/JqMaCvnFLAkJLICrwARdbJLwaqpYk1U3yAs3BQ=="/>
-    </item>
-  </channel>
+    <channel>
+        <title>Modoki</title>
+        <item>
+            <title>1.0.4</title>
+            <pubDate>Tue, 16 Sep 2025 15:45:19 +0300</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                      <h3>What's New in v1.0.4</h3>
+                      <li>📝 <strong>Description:</strong> Ready for macOS 26 Tahoe! Better sidebar, now you can reorder layouts,
+                        plus improved app stability and reliability.</li>
+                      <li>✨ <strong>New:</strong> Fully compatible with macOS 26 Tahoe – <i><b>Modoki</b></i> looks stunning with new
+                        Liquid
+                        Glass
+                        interface elements and seamlessly blends with the new
+                        macOS aesthetic.</li>
+                      <li>✨ <strong>New:</strong> Reorder layouts in sidebar – simply drag any layout in the sidebar to organize them
+                        perfectly for your
+                        workflow.</li>
+                      <li>🛠️ <strong>Fix:</strong> Multiple minor bug fixes... you might not even notice them! But they were there.
+                      </li>
+                      <li>📈 <strong>Improvements:</strong> Improved app stability and reliability – providing a smoother and better
+                        experience.</li>
+                      <li>📈 <strong>Improvements:</strong> Better system integration and performance optimizations.</li>
+                    </ul>
+                      <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
+                  ]]>      </description>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.4/Modoki.1.0.4.dmg" length="4637260" type="application/octet-stream" sparkle:edSignature="oovkvN6jHTlN/LO1X+osLLOrwDZpNBHqgHq6e5yyAW0E0ZxGIEPwUfOPjnIt8ackrHwcMg2o6zYvikBI8MrOCw=="/>
+        </item>
+    </channel>
 </rss>
