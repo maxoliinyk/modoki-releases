@@ -4,8 +4,8 @@
         <title>Modoki</title>
         <item>
             <title>1.0.4</title>
-            <pubDate>Tue, 16 Sep 2025 15:45:19 +0300</pubDate>
-            <sparkle:version>49</sparkle:version>
+            <pubDate>Fri, 19 Sep 2025 12:18:48 +0300</pubDate>
+            <sparkle:version>50</sparkle:version>
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
@@ -20,6 +20,7 @@
                       <li>✨ <strong>New:</strong> Reorder layouts in sidebar – simply drag any layout in the sidebar to organize them
                         perfectly for your
                         workflow.</li>
+                        <li>🛠️ <strong>Fix:</strong> Fixed issues with license activation on macOS 26 Tahoe.</li>
                       <li>🛠️ <strong>Fix:</strong> Multiple minor bug fixes... you might not even notice them! But they were there.
                       </li>
                       <li>📈 <strong>Improvements:</strong> Improved app stability and reliability – providing a smoother and better
@@ -28,7 +29,7 @@
                     </ul>
                       <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
                   ]]>      </description>
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.4/Modoki.1.0.4.dmg" length="4637260" type="application/octet-stream" sparkle:edSignature="oovkvN6jHTlN/LO1X+osLLOrwDZpNBHqgHq6e5yyAW0E0ZxGIEPwUfOPjnIt8ackrHwcMg2o6zYvikBI8MrOCw=="/>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.4(50)/Modoki.1.0.4.dmg" length="4616279" type="application/octet-stream" sparkle:edSignature="mWhvSFbNAU5w8T4BrDAhj9LJ/8bDgb7NmjCwzGyDZJkSrPImz05KvDP18ixx2JLqMsTSlinHhZuou1FRdVCTBA=="/>
         </item>
     </channel>
 </rss>
