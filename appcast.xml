@@ -4,8 +4,8 @@
         <title>Modoki</title>
         <item>
             <title>1.0.4</title>
-            <pubDate>Fri, 19 Sep 2025 12:18:48 +0300</pubDate>
-            <sparkle:version>50</sparkle:version>
+            <pubDate>Mon, 20 Oct 2025 00:51:36 +0300</pubDate>
+            <sparkle:version>51</sparkle:version>
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
@@ -29,7 +29,8 @@
                     </ul>
                       <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
                   ]]>      </description>
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.4(50)/Modoki.1.0.4.dmg" length="4616279" type="application/octet-stream" sparkle:edSignature="mWhvSFbNAU5w8T4BrDAhj9LJ/8bDgb7NmjCwzGyDZJkSrPImz05KvDP18ixx2JLqMsTSlinHhZuou1FRdVCTBA=="/>
+
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v.1.0.4(51)/Modoki.1.0.4.dmg" length="4622340" type="application/octet-stream" sparkle:edSignature="XatNwK/qDYj8HInTkMKdyE6Lnfy2v97OlUdYGsldDFvJShz0uF4tvXyV2riqlo3Vt5ZN1HE8Z5dEtn4ts9xYDg=="/>
         </item>
     </channel>
 </rss>
