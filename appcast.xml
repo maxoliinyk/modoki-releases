@@ -4,12 +4,13 @@
         <title>Modoki</title>
         <item>
             <title>1.0.4</title>
-            <pubDate>Mon, 20 Oct 2025 00:51:36 +0300</pubDate>
-            <sparkle:version>51</sparkle:version>
+            <pubDate>Fri, 28 Nov 2025 11:55:26 +0100</pubDate>
+            <sparkle:version>52</sparkle:version>
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                      <h3>What's New in v1.0.4</h3>
+
+                        <description><![CDATA[
+                      <h3>What's New in v1.0.4 (52)</h3>
                       <li>📝 <strong>Description:</strong> Ready for macOS 26 Tahoe! Better sidebar, now you can reorder layouts,
                         plus improved app stability and reliability.</li>
                       <li>✨ <strong>New:</strong> Fully compatible with macOS 26 Tahoe – <i><b>Modoki</b></i> looks stunning with new
@@ -30,7 +31,7 @@
                       <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
                   ]]>      </description>
 
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v.1.0.4(51)/Modoki.1.0.4.dmg" length="4622340" type="application/octet-stream" sparkle:edSignature="XatNwK/qDYj8HInTkMKdyE6Lnfy2v97OlUdYGsldDFvJShz0uF4tvXyV2riqlo3Vt5ZN1HE8Z5dEtn4ts9xYDg=="/>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v.1.0.4(52)/Modoki.1.0.4.52.dmg" length="4638287" type="application/octet-stream" sparkle:edSignature="bxOQypFRPQrWrwofa1OqjQHIK74doM0uxuRQ4aih0GdLiP9l42gv2GdMWgtS1UFCCTWb3glmIXePzud41yHuBg=="/>
         </item>
     </channel>
 </rss>
