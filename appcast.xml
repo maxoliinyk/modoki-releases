@@ -3,35 +3,27 @@
     <channel>
         <title>Modoki</title>
         <item>
-            <title>1.0.4</title>
-            <pubDate>Fri, 28 Nov 2025 11:55:26 +0100</pubDate>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>1.0.5</title>
+            <pubDate>Sat, 09 May 2026 15:18:37 +0200</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-
-                        <description><![CDATA[
-                      <h3>What's New in v1.0.4 (52)</h3>
-                      <li>📝 <strong>Description:</strong> Ready for macOS 26 Tahoe! Better sidebar, now you can reorder layouts,
-                        plus improved app stability and reliability.</li>
-                      <li>✨ <strong>New:</strong> Fully compatible with macOS 26 Tahoe – <i><b>Modoki</b></i> looks stunning with new
-                        Liquid
-                        Glass
-                        interface elements and seamlessly blends with the new
-                        macOS aesthetic.</li>
-                      <li>✨ <strong>New:</strong> Reorder layouts in sidebar – simply drag any layout in the sidebar to organize them
-                        perfectly for your
-                        workflow.</li>
-                        <li>🛠️ <strong>Fix:</strong> Fixed issues with license activation on macOS 26 Tahoe.</li>
-                      <li>🛠️ <strong>Fix:</strong> Multiple minor bug fixes... you might not even notice them! But they were there.
-                      </li>
-                      <li>📈 <strong>Improvements:</strong> Improved app stability and reliability – providing a smoother and better
-                        experience.</li>
-                      <li>📈 <strong>Improvements:</strong> Better system integration and performance optimizations.</li>
-                    </ul>
-                      <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
-                  ]]>      </description>
-
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v.1.0.4(52)/Modoki.1.0.4.52.dmg" length="4638287" type="application/octet-stream" sparkle:edSignature="bxOQypFRPQrWrwofa1OqjQHIK74doM0uxuRQ4aih0GdLiP9l42gv2GdMWgtS1UFCCTWb3glmIXePzud41yHuBg=="/>
+            <description><![CDATA[
+                <h3>What's New in v1.0.5</h3>
+                <ul>
+                    <li>📝 <strong>Description:</strong> New Layout History, update layouts from your current Dock, add multiple apps at once, more stable Dock editing, and big improvements to Focus Mode detection.</li>
+                    <li>✨ <strong>New:</strong> Layout History – <i><b>Modoki</b></i> now keeps recent Dock layout snapshots, so you can quickly restore a previous layout if needed. Even if it wasn't saved!</li>
+                    <li>✨ <strong>New:</strong> Update current layout from Dock – you can now refresh an existing layout using your current Dock setup instead of recreating it manually.</li>
+                    <li>✨ <strong>New:</strong> Add multiple apps at once – adding apps to layouts is now faster and more convenient.</li>
+                    <li>📈 <strong>Improvements:</strong> Improved Focus Mode detection and auto-revert reliability.</li>
+                    <li>📈 <strong>Improvements:</strong> Improved Dock scrolling behavior for larger layouts, making it easier to work with many apps.</li>
+                    <li>📈 <strong>Improvements:</strong> More reliable app adding – some apps previously could have issues with being added to layouts.</li>
+                    <li>🛠️ <strong>Fix:</strong> Fixed multiple bugs around applying, updating, and restoring layouts.</li>
+                    <li>🛠️ <strong>Fix:</strong> General cleanup and internal improvements for a smoother, more reliable experience.</li>
+                </ul>
+                <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
+            ]]></description>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.5/Modoki.1.0.5.dmg" length="4337539" type="application/octet-stream" sparkle:edSignature="2QnMz//uJESG+wm5hYIB0uIxWhKwDCb3888j+WPuQTtESH4VEyJowM5Fc78agndQtHTHolslEG7w2L4GIs96Dg=="/>
         </item>
     </channel>
 </rss>
