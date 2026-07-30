@@ -3,27 +3,96 @@
     <channel>
         <title>Modoki</title>
         <item>
-            <title>1.0.5</title>
-            <pubDate>Sat, 09 May 2026 15:18:37 +0200</pubDate>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <title>1.1.0</title>
+            <pubDate>Thu, 30 Jul 2026 23:37:26 +0200</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h3>What's New in v1.0.5</h3>
-                <ul>
-                    <li>📝 <strong>Description:</strong> New Layout History, update layouts from your current Dock, add multiple apps at once, more stable Dock editing, and big improvements to Focus Mode detection.</li>
-                    <li>✨ <strong>New:</strong> Layout History – <i><b>Modoki</b></i> now keeps recent Dock layout snapshots, so you can quickly restore a previous layout if needed. Even if it wasn't saved!</li>
-                    <li>✨ <strong>New:</strong> Update current layout from Dock – you can now refresh an existing layout using your current Dock setup instead of recreating it manually.</li>
-                    <li>✨ <strong>New:</strong> Add multiple apps at once – adding apps to layouts is now faster and more convenient.</li>
-                    <li>📈 <strong>Improvements:</strong> Improved Focus Mode detection and auto-revert reliability.</li>
-                    <li>📈 <strong>Improvements:</strong> Improved Dock scrolling behavior for larger layouts, making it easier to work with many apps.</li>
-                    <li>📈 <strong>Improvements:</strong> More reliable app adding – some apps previously could have issues with being added to layouts.</li>
-                    <li>🛠️ <strong>Fix:</strong> Fixed multiple bugs around applying, updating, and restoring layouts.</li>
-                    <li>🛠️ <strong>Fix:</strong> General cleanup and internal improvements for a smoother, more reliable experience.</li>
-                </ul>
-                <p><a href="https://modoki.com/changelog">Full Changelog</a></p>
-            ]]></description>
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.0.5/Modoki.1.0.5.dmg" length="4337539" type="application/octet-stream" sparkle:edSignature="2QnMz//uJESG+wm5hYIB0uIxWhKwDCb3888j+WPuQTtESH4VEyJowM5Fc78agndQtHTHolslEG7w2L4GIs96Dg=="/>
+            <description><![CDATA[<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>What's New in Modoki 1.1.0</title>
+    </head>
+    <body>
+        <h3>What's New in v1.1.0</h3>
+        <ul>
+            <li>
+                📝 <strong>Description:</strong> Add folders and customizable
+                spacers to your layouts, much more reliable Focus Mode switching
+                and auto-revert, safer Dock updates, and major stability
+                improvements.
+            </li>
+            <li>
+                ✨ <strong>New:</strong> Folders in Dock layouts – add folders
+                alongside your apps and customize how they appear, how their
+                contents are displayed, and how items are sorted.
+            </li>
+            <li>
+                ✨ <strong>New:</strong> Customizable spacers – add regular,
+                small, or flexible spacers to either side of the Dock, then
+                reorder or adjust them anytime.
+            </li>
+            <li>
+                📈 <strong>Improvements:</strong> Focus Mode integration has been
+                extensively rebuilt for better reliability. Modoki now handles
+                an already-active Focus at launch, recovers from missed Focus
+                changes, and restores your previous Dock more consistently when
+                the Focus ends.
+            </li>
+            <li>
+                📈 <strong>Improvements:</strong> Safer Dock switching – layout
+                changes are handled one at a time, and Modoki attempts to restore
+                your previous Dock if applying a layout fails.
+            </li>
+            <li>
+                📈 <strong>Improvements:</strong> Faster, more responsive
+                interface while loading icons, switching layouts, importing or
+                exporting layouts, and creating diagnostic reports.
+            </li>
+            <li>
+                📈 <strong>Improvements:</strong> Better compatibility across
+                Apple silicon and Intel Macs.
+            </li>
+            <li>
+                📈 <strong>Improvements:</strong> Safer layout storage and
+                importing, clearer progress and error states, improved
+                destructive-action confirmations, and more privacy-friendly
+                diagnostic exports.
+            </li>
+            <li>
+                🛠️ <strong>Fix:</strong> Fixed rapid layout or Focus changes
+                sometimes leaving Modoki busy, out of sync, or showing the wrong
+                selected layout.
+            </li>
+            <li>
+                🛠️ <strong>Fix:</strong> Fixed previously auto-quit apps
+                sometimes being reopened after an unrelated layout change.
+            </li>
+            <li>
+                🛠️ <strong>Fix:</strong> Multiple fixes around creating,
+                applying, restoring, updating, and deleting layouts for a
+                smoother and more reliable experience.
+            </li>
+        </ul>
+
+        <h4>Known Issues</h4>
+        <ul>
+            <li>
+                If you have the "Show dock icon" setting turned off and open the
+                app through Spotlight, the dock icon might not disappear after
+                closing the app window.
+            </li>
+            <li>
+                Switching between layouts too fast can result in an error. Try again
+                after a short delay.
+            </li>
+        </ul>
+    </body>
+</html>
+]]></description>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.1.0/Modoki.1.1.0.dmg" length="5048098" type="application/octet-stream" sparkle:edSignature="thEOQOhNKXPEej97KMSb2Nc+8Nt8I4tHroMW7D02UrqwokG22pKxLx/RttMNkYJsJlMiU//F0LC/p78dX4IzBw=="/>
         </item>
     </channel>
 </rss>
