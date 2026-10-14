@@ -3,96 +3,49 @@
     <channel>
         <title>Modoki</title>
         <item>
-            <title>1.1.0</title>
-            <pubDate>Thu, 30 Jul 2026 23:37:26 +0200</pubDate>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <title>1.2.0</title>
+            <pubDate>Wed, 14 Oct 2026 19:44:06 +0200</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>What's New in Modoki 1.1.0</title>
+        <title>What's New in Modoki 1.2.0</title>
     </head>
     <body>
-        <h3>What's New in v1.1.0</h3>
+        <h3>What's New in v1.2.0</h3>
         <ul>
-            <li>
-                📝 <strong>Description:</strong> Add folders and customizable
-                spacers to your layouts, much more reliable Focus Mode switching
-                and auto-revert, safer Dock updates, and major stability
-                improvements.
-            </li>
-            <li>
-                ✨ <strong>New:</strong> Folders in Dock layouts – add folders
-                alongside your apps and customize how they appear, how their
-                contents are displayed, and how items are sorted.
-            </li>
-            <li>
-                ✨ <strong>New:</strong> Customizable spacers – add regular,
-                small, or flexible spacers to either side of the Dock, then
-                reorder or adjust them anytime.
-            </li>
-            <li>
-                📈 <strong>Improvements:</strong> Focus Mode integration has been
-                extensively rebuilt for better reliability. Modoki now handles
-                an already-active Focus at launch, recovers from missed Focus
-                changes, and restores your previous Dock more consistently when
-                the Focus ends.
-            </li>
-            <li>
-                📈 <strong>Improvements:</strong> Safer Dock switching – layout
-                changes are handled one at a time, and Modoki attempts to restore
-                your previous Dock if applying a layout fails.
-            </li>
-            <li>
-                📈 <strong>Improvements:</strong> Faster, more responsive
-                interface while loading icons, switching layouts, importing or
-                exporting layouts, and creating diagnostic reports.
-            </li>
-            <li>
-                📈 <strong>Improvements:</strong> Better compatibility across
-                Apple silicon and Intel Macs.
-            </li>
-            <li>
-                📈 <strong>Improvements:</strong> Safer layout storage and
-                importing, clearer progress and error states, improved
-                destructive-action confirmations, and more privacy-friendly
-                diagnostic exports.
-            </li>
-            <li>
-                🛠️ <strong>Fix:</strong> Fixed rapid layout or Focus changes
-                sometimes leaving Modoki busy, out of sync, or showing the wrong
-                selected layout.
-            </li>
-            <li>
-                🛠️ <strong>Fix:</strong> Fixed previously auto-quit apps
-                sometimes being reopened after an unrelated layout change.
-            </li>
-            <li>
-                🛠️ <strong>Fix:</strong> Multiple fixes around creating,
-                applying, restoring, updating, and deleting layouts for a
-                smoother and more reliable experience.
-            </li>
+            <li>📝 <strong>Description:</strong> macOS 27 Golden Gate support, a cleaner interface, editable layouts, history previews, and more reliable Dock switching.</li>
+            <li>✨ <strong>New:</strong> Ready for macOS 27 Golden Gate – full support for the latest macOS release.</li>
+            <li>✨ <strong>New:</strong> Customize layouts while creating them. Start with your current Dock, then add, remove, or rearrange apps, folders, and spacers before saving.</li>
+            <li>✨ <strong>New:</strong> Edit layouts you’ve already saved. Save your changes without touching your current Dock, then apply the layout when you’re ready to switch.</li>
+            <li>✨ <strong>New:</strong> Choose how each layout handles running apps: follow the global Auto-Quit Apps setting, always quit apps outside the layout, or keep them open.</li>
+            <li>✨ <strong>New:</strong> Layout History now shows what changed during a switch before you restore your previous Dock.</li>
+            <li>✨ <strong>New:</strong> Apple Shortcuts support – choose and apply a saved layout with Shortcuts or Automations.</li>
+            <li>📈 <strong>Improvements:</strong> Slightly redesigned and cleaner main window. History, Settings, and New Layout have moved from the sidebar to the toolbar, leaving more room for your layouts.</li>
+            <li>📈 <strong>Improvements:</strong> Exported layouts are easier to use on another Mac. Modoki finds installed apps, flags missing items, and still accepts older backups.</li>
+            <li>📈 <strong>Improvements:</strong> Click a layout in sidebar to view it, or double-click to apply it.</li>
+            <li>📈 <strong>Improvements:</strong> You can now see progress while a layout is being applied.</li>
+            <li>📈 <strong>Improvements:</strong> Better handling of Dock restarts and Focus Mode changes behind the scenes.</li>
+            <li>🛠️ <strong>Fix:</strong> Fixed rapid switching sometimes showing a Dock command error or reverting to the previous layout.</li>
+            <li>🛠️ <strong>Fix:</strong> Updated keyboard shortcuts, now they're reliable again.</li>
+            <li>🛠️ <strong>Fix:</strong> Layout History now shows the correct before-and-after changes, making it clear what Undo will restore.</li>
+            <li>🛠️ <strong>Fix:</strong> Fixed a crash when removing several spacers from the Dock.</li>
+            <li>🛠️ <strong>Fix:</strong> Multiple minor internal fixes and improvements.</li>
+            <li>⚠️ <strong>Compatibility:</strong> Modoki now requires macOS 15 or later. If you use macOS 14, stay on v1.1.0.</li>
         </ul>
 
         <h4>Known Issues</h4>
         <ul>
-            <li>
-                If you have the "Show dock icon" setting turned off and open the
-                app through Spotlight, the dock icon might not disappear after
-                closing the app window.
-            </li>
-            <li>
-                Switching between layouts too fast can result in an error. Try again
-                after a short delay.
-            </li>
+            <li>If “Show dock icon” is turned off and you open Modoki through Spotlight, its Dock icon may remain after you close the window.</li>
         </ul>
     </body>
 </html>
 ]]></description>
-            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v1.1.0/Modoki.1.1.0.dmg" length="5048098" type="application/octet-stream" sparkle:edSignature="thEOQOhNKXPEej97KMSb2Nc+8Nt8I4tHroMW7D02UrqwokG22pKxLx/RttMNkYJsJlMiU//F0LC/p78dX4IzBw=="/>
+            <enclosure url="https://maxoliinyk.github.io/modoki-releases/Modoki%201.2.0.dmg" length="5603632" type="application/octet-stream" sparkle:edSignature="+BdlniwwMoisocVsPmIuyPSqxbHKKDlne06aP6qOde+SD6/0HAvf4bmVlw2kD+RYRDudimOYMLjUBWTauvDeBg=="/>
         </item>
     </channel>
 </rss>
