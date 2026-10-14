@@ -45,7 +45,7 @@
     </body>
 </html>
 ]]></description>
-            <enclosure url="https://maxoliinyk.github.io/modoki-releases/Modoki%201.2.0.dmg" length="5603632" type="application/octet-stream" sparkle:edSignature="+BdlniwwMoisocVsPmIuyPSqxbHKKDlne06aP6qOde+SD6/0HAvf4bmVlw2kD+RYRDudimOYMLjUBWTauvDeBg=="/>
+            <enclosure url="https://github.com/maxoliinyk/modoki-releases/releases/download/v.1.2.0/Modoki.1.2.0.dmg" length="5603632" type="application/octet-stream" sparkle:edSignature="+BdlniwwMoisocVsPmIuyPSqxbHKKDlne06aP6qOde+SD6/0HAvf4bmVlw2kD+RYRDudimOYMLjUBWTauvDeBg=="/>
         </item>
     </channel>
 </rss>
